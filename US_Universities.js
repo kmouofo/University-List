@@ -4331,4 +4331,15 @@
     source: availableTags,
       minLength : 3
 });
+    
+    $("[fs-field-validation-name='2.1.1) University name'] > input").autocomplete({
+    source: availableTags,
+      minLength : 3
+});
+    
+    $("[fs-field-validation-name='3.1.1) University name'] > input").autocomplete({
+    source: availableTags,
+      minLength : 3
+});
+    
   } );

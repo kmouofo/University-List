@@ -962,4 +962,9 @@
       minLength : 3
 });
   
+  $("[fs-field-validation-name='3.1.2) University name'] > input").autocomplete({
+    source: availableTags,
+      minLength : 3
+});
+  
   } );
